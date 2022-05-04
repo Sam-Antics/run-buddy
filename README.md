@@ -13,4 +13,4 @@ https://sam-antics.github.io/run-buddy/
 ## Contribution
 Made with ❤️ by Samantha Guerra
 
-### &copy2019 Run Buddy, Inc
+### &copy;2019 Run Buddy, Inc
