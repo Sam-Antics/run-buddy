@@ -6,12 +6,11 @@
 }
 
 body {
-    /* This is a comment for comment's sake */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-seif;
 }
 
-/* apply styles to header */
+/* apply styles to header/nav bar */
 header {
     display: flex;
     justify-content: space-between;
@@ -49,6 +48,7 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
+/* footer styles */
 footer {
     display: flex;
     justify-content: space-between;
@@ -72,7 +72,8 @@ footer div {
 footer a {
     color: #024e76;
 }
-                      
+     
+/* styling for all section tags */
 section {
     padding: 60px;
 }
@@ -86,7 +87,7 @@ section {
     background-size: cover;
     background-position: center;
 }
-/* end hero style */
+
 /* adding CTA styles */
 .hero-cta {
     width: 35%;
@@ -106,7 +107,6 @@ section {
     border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
-    height: 415px;
     width: 40%;
     margin: 3.5%;
     color: #024e76;
@@ -135,7 +135,7 @@ section {
     margin: 0 5px;
 }
 
-button {
+.hero-form button {
     background-color: #024e76;
     border: none;
     padding: 10px 20px;
@@ -143,6 +143,26 @@ button {
     color: #fce138;
 }
 
+/* section title styles */
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+/* what we do styles */
 .intro p {
     text-align: center;
     line-height: 1.7;
@@ -154,22 +174,6 @@ button {
 
 .steps {
     background: #fce138;
-}
-
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-}
-.primary-border {
-    border-color: #fce138;
-}
-.secondary-border {
-    border-color: #39a6b2;
 }
 
 /* adding flexbox and styling for each step */
@@ -218,9 +222,10 @@ button {
 
 .step-text p {
     color: #39a6b2;
-    font-size: 23px;
+    font-size: 18px;
 }
 
+/* meet the trainers styles */
 .trainers {
     display: flex;
     flex-wrap: wrap;
@@ -259,6 +264,7 @@ button {
     font-size: 17px;
 }
 
+/* reach out styles */
 .contact {
     background: #024e76
 }
@@ -326,4 +332,12 @@ button {
 /* utility classes */
 .flex-row {
     display: flex;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
 }
