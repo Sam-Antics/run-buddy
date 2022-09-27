@@ -11,6 +11,6 @@ A website that offers fitness training services.
 https://sam-antics.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by Samantha Guerra
+Made with ❤️ by Design SamAntics
 
 ### &copy;2019 Run Buddy, Inc
