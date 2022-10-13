@@ -16,6 +16,7 @@ This application is deployed at a live URL.</br>
 [Click for Deployed Site](
 https://sam-antics.github.io/run-buddy/)
 ### Site Screenshot
+![Run Buddy, Inc.](./assets/images/run-buddy.png)
 
 [Click for Deployed Application](https://sam-antics.github.io/photo-port/)
 ## Built With
